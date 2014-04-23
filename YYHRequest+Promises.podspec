@@ -8,8 +8,9 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://twitter.com/angelodipaolo'
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
+  s.requires_arc = true
   s.source       = { :git => 'https://github.com/angelodipaolo/YYHRequest-Promises.git', :tag => '0.0.1' }
-  s.source_files =  'YYHRequest+PromiseKit/Classes/**/*.{h,m}'
+  s.source_files =  'YYHRequest+Promises/Classes/**/*.{h,m}'
   s.dependency 'YYHRequest', '=0.0.3'
   s.dependency 'PromiseKit', '=0.9.0'
 end
