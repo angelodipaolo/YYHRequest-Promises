@@ -1,0 +1,33 @@
+PODS:
+  - ChuzzleKit (1.0.1)
+  - PromiseKit (0.9.0):
+    - ChuzzleKit
+    - PromiseKit/base
+    - PromiseKit/CoreLocation
+    - PromiseKit/Foundation
+    - PromiseKit/UIKit
+  - PromiseKit/base (0.9.0):
+    - ChuzzleKit
+  - PromiseKit/CoreLocation (0.9.0):
+    - ChuzzleKit
+    - PromiseKit/base
+  - PromiseKit/Foundation (0.9.0):
+    - ChuzzleKit
+    - PromiseKit/base
+  - PromiseKit/UIKit (0.9.0):
+    - ChuzzleKit
+    - PromiseKit/base
+  - YYHRequest (0.0.3):
+    - YYHRequest/JSON
+  - YYHRequest/JSON (0.0.3)
+
+DEPENDENCIES:
+  - PromiseKit (= 0.9.0)
+  - YYHRequest (= 0.0.3)
+
+SPEC CHECKSUMS:
+  ChuzzleKit: e3cd95ca5cc2c9e28e0a2a8662ca33e330ea2f30
+  PromiseKit: dc691b095f7d81377dec67831c235d5cf60bd8b5
+  YYHRequest: 73593db5fdd276b0d8bdae1b40a12f3c2ca8dcb5
+
+COCOAPODS: 0.32.1

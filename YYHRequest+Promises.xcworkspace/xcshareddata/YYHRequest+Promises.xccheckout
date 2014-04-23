@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B63FCA7-EC24-4AEC-BEBE-4A108B5E94CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>YYHRequest+Promises</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDFEB6F9-374A-4D4F-BECE-E6D78D4CE094</key>
+		<string>ssh://github.com/angelodipaolo/YYHRequest-Promises.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>YYHRequest+Promises.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDFEB6F9-374A-4D4F-BECE-E6D78D4CE094</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/angelodipaolo/YYHRequest-Promises.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDFEB6F9-374A-4D4F-BECE-E6D78D4CE094</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDFEB6F9-374A-4D4F-BECE-E6D78D4CE094</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YYHRequest-Promises</string>
+		</dict>
+	</array>
+</dict>
+</plist>
