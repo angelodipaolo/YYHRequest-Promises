@@ -7,18 +7,18 @@ YYHRequest+Promises
 
 Defer requests using promises.
 
-   dispatch_promise(^{
+    dispatch_promise(^{
        return [YYHRequest deferredRequestWithURL:[NSURL URLWithString:@"http://www.google.com/"]];
-   }).then(^(NSData *data) {
+    }).then(^(NSData *data) {
 
-   }).catch(^(NSError *error){
+    }).catch(^(NSError *error){
 
-   });
+    });
 
 YYHRequest *request = [YYHRequest requestWithURL:url];
 
-   [request deferRequest].then(^(NSData *data) {
+    [request deferRequest].then(^(NSData *data) {
 
-   }).catch(^(NSError *error){
+    }).catch(^(NSError *error){
 
-   });
+    });
