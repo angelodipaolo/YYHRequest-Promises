@@ -13,13 +13,13 @@
 		17B6C0E419078F82005A5F27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B6C0E219078F82005A5F27 /* InfoPlist.strings */; };
 		17B6C0E619078F82005A5F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6C0E519078F82005A5F27 /* main.m */; };
 		17B6C0EA19078F82005A5F27 /* YYHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6C0E919078F82005A5F27 /* YYHAppDelegate.m */; };
-		17B6C0EC19078F82005A5F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B6C0EB19078F82005A5F27 /* Images.xcassets */; };
 		17B6C0F319078F83005A5F27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6C0F219078F83005A5F27 /* XCTest.framework */; };
 		17B6C0F419078F83005A5F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6C0D919078F82005A5F27 /* Foundation.framework */; };
 		17B6C0F519078F83005A5F27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B6C0DD19078F82005A5F27 /* UIKit.framework */; };
 		17B6C0FD19078F83005A5F27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B6C0FB19078F83005A5F27 /* InfoPlist.strings */; };
 		17B6C0FF19078F83005A5F27 /* YYHRequest_PromisesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6C0FE19078F83005A5F27 /* YYHRequest_PromisesTests.m */; };
 		17B6C10B190790ED005A5F27 /* YYHRequest+Promises.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B6C10A190790ED005A5F27 /* YYHRequest+Promises.m */; };
+		17B6C10D1908C63D005A5F27 /* YYHRequest+Promises.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 17B6C10C1908C63D005A5F27 /* YYHRequest+Promises.podspec */; };
 		24155F15E5B74C75998E4877 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF709AC6E0447F489D5AC1E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,6 @@
 		17B6C0E719078F82005A5F27 /* YYHRequest+Promises-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YYHRequest+Promises-Prefix.pch"; sourceTree = "<group>"; };
 		17B6C0E819078F82005A5F27 /* YYHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYHAppDelegate.h; sourceTree = "<group>"; };
 		17B6C0E919078F82005A5F27 /* YYHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHAppDelegate.m; sourceTree = "<group>"; };
-		17B6C0EB19078F82005A5F27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		17B6C0F119078F83005A5F27 /* YYHRequest+PromisesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YYHRequest+PromisesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B6C0F219078F83005A5F27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		17B6C0FA19078F83005A5F27 /* YYHRequest+PromisesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YYHRequest+PromisesTests-Info.plist"; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		17B6C0FE19078F83005A5F27 /* YYHRequest_PromisesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYHRequest_PromisesTests.m; sourceTree = "<group>"; };
 		17B6C109190790ED005A5F27 /* YYHRequest+Promises.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYHRequest+Promises.h"; sourceTree = "<group>"; };
 		17B6C10A190790ED005A5F27 /* YYHRequest+Promises.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYHRequest+Promises.m"; sourceTree = "<group>"; };
+		17B6C10C1908C63D005A5F27 /* YYHRequest+Promises.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "YYHRequest+Promises.podspec"; sourceTree = SOURCE_ROOT; };
 		672889083F3048A8967A028A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		CCF709AC6E0447F489D5AC1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,7 +119,6 @@
 				17B6C108190790ED005A5F27 /* Classes */,
 				17B6C0E819078F82005A5F27 /* YYHAppDelegate.h */,
 				17B6C0E919078F82005A5F27 /* YYHAppDelegate.m */,
-				17B6C0EB19078F82005A5F27 /* Images.xcassets */,
 				17B6C0E019078F82005A5F27 /* Supporting Files */,
 			);
 			path = "YYHRequest+Promises";
@@ -128,6 +127,7 @@
 		17B6C0E019078F82005A5F27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				17B6C10C1908C63D005A5F27 /* YYHRequest+Promises.podspec */,
 				17B6C0E119078F82005A5F27 /* YYHRequest+Promises-Info.plist */,
 				17B6C0E219078F82005A5F27 /* InfoPlist.strings */,
 				17B6C0E519078F82005A5F27 /* main.m */,
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B6C0E419078F82005A5F27 /* InfoPlist.strings in Resources */,
-				17B6C0EC19078F82005A5F27 /* Images.xcassets in Resources */,
+				17B6C10D1908C63D005A5F27 /* YYHRequest+Promises.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
